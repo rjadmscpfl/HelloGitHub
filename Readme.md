@@ -24,8 +24,15 @@ Let's start GitHub
 * git checkout (myidea) -> git checkout -b (myidea)
 * git add --all
 * git commit -m "Second commit"
-* git branch -d myidea
+* git branch -d (myidea)
 * _git checkout master_
+----------------------------------------------------
+## remote branch
+* git branch -a
+* git push origin (myidea)
+* (git fetch)
+* git checkout -b (myidea) origin/myidea
+* git push -d origin (myidea)
 
 ## merge
 * git checkout master
@@ -49,7 +56,13 @@ Let's start GitHub
 ## .gitignore
 *  _.gitignore_ <- add file name which you don't want to update 
 
-## clone or download
-* git clone (
+## clone code
+* git clone https://github.com/rjadmscpfl/HelloGitHub.git
 
+## fetch
+* git fetch
+* git status
+
+## pull to local Repo
+* git pull origin master
 
