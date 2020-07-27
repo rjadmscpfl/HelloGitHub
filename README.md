@@ -77,6 +77,7 @@ Let's start GitHub
 * git pull/push origin (myidea)
 
 * git push -d origin (myidea)
+* git branch --delete --remotes origin/br1 
 
 ## merge branch
 * git checkout master
