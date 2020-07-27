@@ -21,6 +21,12 @@ Let's start GitHub
 * git reset cb5d6a (--hard | soft)
 * git revert cb5d6a
 
+* ex)
+* git reset --hard cb5d6a
+* git add --all
+* git commit -am "reset cb5d6a"
+* git push -u origin master master
+
 ## push to github
 * git remote add origin https://github.com/rjadmscpfl/HelloPython.git
 * git push -u origin master 
@@ -45,7 +51,7 @@ Let's start GitHub
 * git add --all
 * git commit -m "Remote commit"
 
-* Ex)
+* ex)
 * git pull
 * git push origin master
 ----------------------------------------------------
@@ -62,10 +68,17 @@ Let's start GitHub
 * git branch -a
 * git push origin (myidea)
 * (git fetch)
+
+* git diff (myidea)
+* git checkout -p mater test.py <- patch
 * git checkout -b (myidea) origin/myidea
+
+* git checkout -t origin/myidea 
+* git pull/push origin (myidea)
+
 * git push -d origin (myidea)
 
-## merge
+## merge branch
 * git checkout master
 * git merge (myidea)
 
