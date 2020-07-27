@@ -1,1 +1,1 @@
-name : dooly    
+print("Hello World")
