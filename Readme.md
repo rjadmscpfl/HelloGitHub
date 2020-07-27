@@ -70,8 +70,12 @@ Let's start GitHub
 * (git fetch)
 
 * git diff (myidea)
-* git checkout -p (myidea)   
+* git checkout -p mater test.py <- patch
 * git checkout -b (myidea) origin/myidea
+
+* git checkout -t origin/myidea 
+* git pull/push origin (myidea)
+
 * git push -d origin (myidea)
 
 ## merge branch
